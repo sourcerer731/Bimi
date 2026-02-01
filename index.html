@@ -2,75 +2,110 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Sourcerer | Professional & Managed Services</title>
-
-  <meta name="description" content="Sourcerer provides professional services and managed services focused on sourcing, operations, and scalable business support." />
-  <meta name="keywords" content="professional services, managed services, sourcing services, business operations, Sourcerer" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO basics -->
-  <meta name="robots" content="index, follow" />
+  <!-- SEO -->
+  <title>Sourcerer | Professional & Managed Services</title>
+  <meta name="description" content="Sourcerer is a professional services and managed services firm supporting organisations across sourcing, operations, and scalable delivery." />
+  <meta name="keywords" content="professional services, managed services, sourcing support, operations consulting, delivery services" />
 
-  <!-- Simple styling -->
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sourcerer | Professional & Managed Services" />
+  <meta property="og:description" content="Structured professional and managed services support across sourcing, operations, and execution." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.sourcerer.in" />
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #ffffff;
-      color: #000000;
       margin: 0;
-      padding: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f9f9f9;
+      color: #111;
     }
 
     .container {
-      max-width: 700px;
-      margin: 0 auto;
+      max-width: 680px;
+      margin: 80px auto;
+      padding: 48px;
+      background: #ffffff;
+      border-radius: 8px;
     }
 
     .logo {
-      margin-bottom: 30px;
+      margin-bottom: 32px;
     }
 
     .logo img {
-      max-width: 180px;
+      width: 96px;
       height: auto;
+      display: block;
     }
 
     h1 {
-      font-size: 12px;
-      font-weight: bold;
-      margin-bottom: 10px;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
     }
 
     p {
       font-size: 11px;
-      line-height: 1.5;
+      line-height: 1.6;
       margin-bottom: 16px;
+      color: #333;
     }
 
-    form {
-      margin-top: 30px;
+    hr {
+      border: none;
+      border-top: 1px solid #eee;
+      margin: 32px 0;
     }
 
-    input, textarea {
+    form input,
+    form textarea {
       width: 100%;
-      font-family: Arial, sans-serif;
+      padding: 10px;
       font-size: 11px;
-      padding: 8px;
-      margin-bottom: 10px;
       border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    form textarea {
+      resize: vertical;
+      min-height: 80px;
     }
 
     button {
-      font-size: 11px;
-      padding: 8px 14px;
-      border: none;
-      background: #000;
+      background: #111;
       color: #fff;
+      border: none;
+      padding: 10px 18px;
+      font-size: 11px;
+      border-radius: 4px;
       cursor: pointer;
     }
 
     button:hover {
       opacity: 0.9;
+    }
+
+    footer {
+      margin-top: 48px;
+      font-size: 10px;
+      color: #777;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        margin: 40px 16px;
+        padding: 32px 24px;
+      }
+
+      .logo img {
+        width: 80px;
+      }
     }
   </style>
 </head>
@@ -80,29 +115,32 @@
 
     <!-- Logo -->
     <div class="logo">
-      <img src="sourcerer-bimi.svg" alt="Sourcerer Logo" />
+      <img src="sourcerer-bimi.svg" alt="Sourcerer logo">
     </div>
 
-    <!-- About Us -->
+    <!-- About -->
     <h1>About Us</h1>
-
     <p>
-      Sourcerer is a professional services and managed services firm focused on enabling organisations
-      to operate efficiently, scale responsibly, and execute with clarity.
+      Sourcerer is a professional services and managed services firm focused on enabling organisations to operate efficiently, scale responsibly, and execute with clarity.
+    </p>
+    <p>
+      We work as an extension of our clients’ teams, providing structured support across sourcing, operations, and ongoing managed service engagements.
     </p>
 
-    <p>
-      We work as an extension of our clients’ teams, providing structured support across sourcing,
-      operations, and ongoing managed service engagements.
-    </p>
+    <hr />
 
-    <!-- Contact Form -->
+    <!-- Contact -->
     <form action="https://formspree.io/f/xxxxxxx" method="POST">
       <input type="text" name="name" placeholder="Your name" required />
       <input type="email" name="email" placeholder="Your email" required />
-      <textarea name="message" rows="4" placeholder="How can we help?" required></textarea>
+      <textarea name="message" placeholder="How can we help?" required></textarea>
       <button type="submit">Get in touch</button>
     </form>
+
+    <!-- Footer -->
+    <footer>
+      © Sourcerer. All rights reserved.
+    </footer>
 
   </div>
 </body>
