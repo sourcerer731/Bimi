@@ -3,86 +3,85 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sourcerer | Professional & Managed Services</title>
 
   <!-- SEO -->
-  <title>Sourcerer | Professional & Managed Services</title>
-  <meta name="description" content="Sourcerer is a professional services and managed services firm supporting organisations across sourcing, operations, and scalable delivery." />
-  <meta name="keywords" content="professional services, managed services, sourcing support, operations consulting, delivery services" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Sourcerer | Professional & Managed Services" />
-  <meta property="og:description" content="Structured professional and managed services support across sourcing, operations, and execution." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.sourcerer.in" />
+  <meta name="description" content="Sourcerer is a professional services and managed services firm supporting sourcing, operations, and scalable delivery." />
+  <meta name="keywords" content="professional services, managed services, sourcing operations, business operations support" />
 
   <style>
     body {
       margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f9f9f9;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      background-color: #f6f6f6;
       color: #111;
     }
 
     .container {
-      max-width: 680px;
-      margin: 80px auto;
-      padding: 48px;
+      max-width: 720px;
+      margin: 60px auto;
       background: #ffffff;
+      padding: 50px 50px 60px;
       border-radius: 8px;
     }
 
     .logo {
-      margin-bottom: 32px;
+      margin-bottom: 24px;
     }
 
     .logo img {
-      width: 96px;
+      max-width: 120px;
       height: auto;
-      display: block;
     }
 
     h1 {
-      font-size: 14px;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      margin-bottom: 12px;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+      margin: 12px 0 14px;
     }
 
     p {
-      font-size: 11px;
-      line-height: 1.6;
-      margin-bottom: 16px;
-      color: #333;
+      font-size: 15px;
+      margin: 0 0 14px;
+      color: #222;
     }
 
-    hr {
-      border: none;
-      border-top: 1px solid #eee;
-      margin: 32px 0;
+    .divider {
+      height: 1px;
+      background: #e6e6e6;
+      margin: 30px 0;
     }
 
-    form input,
-    form textarea {
+    form {
+      margin-top: 20px;
+    }
+
+    input,
+    textarea {
       width: 100%;
-      padding: 10px;
-      font-size: 11px;
-      border: 1px solid #ccc;
+      padding: 12px 14px;
+      margin-bottom: 14px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      border: 1px solid #d0d0d0;
       border-radius: 4px;
-      margin-bottom: 12px;
-      font-family: Arial, Helvetica, sans-serif;
+      box-sizing: border-box;
     }
 
-    form textarea {
+    textarea {
+      min-height: 120px;
       resize: vertical;
-      min-height: 80px;
     }
 
     button {
-      background: #111;
-      color: #fff;
-      border: none;
+      background: #000000;
+      color: #ffffff;
+      font-size: 14px;
       padding: 10px 18px;
-      font-size: 11px;
+      border: none;
       border-radius: 4px;
       cursor: pointer;
     }
@@ -92,19 +91,15 @@
     }
 
     footer {
-      margin-top: 48px;
-      font-size: 10px;
+      margin-top: 40px;
+      font-size: 12px;
       color: #777;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 600px) {
       .container {
-        margin: 40px 16px;
-        padding: 32px 24px;
-      }
-
-      .logo img {
-        width: 80px;
+        margin: 30px 16px;
+        padding: 36px 28px 44px;
       }
     }
   </style>
@@ -115,29 +110,30 @@
 
     <!-- Logo -->
     <div class="logo">
-      <img src="sourcerer-bimi.svg" alt="Sourcerer logo">
+      <img src="sourcerer-bimi.svg" alt="Sourcerer Logo" />
     </div>
 
     <!-- About -->
-    <h1>About Us</h1>
+    <h1>ABOUT US</h1>
+
     <p>
       Sourcerer is a professional services and managed services firm focused on enabling organisations to operate efficiently, scale responsibly, and execute with clarity.
     </p>
+
     <p>
       We work as an extension of our clients’ teams, providing structured support across sourcing, operations, and ongoing managed service engagements.
     </p>
 
-    <hr />
+    <div class="divider"></div>
 
-    <!-- Contact -->
-    <form action="https://formspree.io/f/xxxxxxx" method="POST">
+    <!-- Contact Form -->
+    <form action="https://formspree.io/f/XXXXXXX" method="POST">
       <input type="text" name="name" placeholder="Your name" required />
       <input type="email" name="email" placeholder="Your email" required />
       <textarea name="message" placeholder="How can we help?" required></textarea>
       <button type="submit">Get in touch</button>
     </form>
 
-    <!-- Footer -->
     <footer>
       © Sourcerer. All rights reserved.
     </footer>
